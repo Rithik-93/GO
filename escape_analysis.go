@@ -14,3 +14,5 @@
 // 	i := Item{x: x, y: y}
 // 	return &i // ← Go moves `i` to the heap automatically
 // }
+
+// go build -gcflags="-m" .\escape_analysis.go
